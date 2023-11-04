@@ -1,8 +1,17 @@
 commands=./Shnob
 
+[volume]
+maincolor=#d887f3
+backcolor=#553260
+icontext=
+separator=false
+command=$commands/volume.sh
+markup=pango
+signal=10
+interval=once
 [ramusage]
-maincolor=#8b8bff
-backcolor=#3d3d80
+maincolor=#20b1e3
+backcolor=#0d475b
 icontext=
 separator=false
 command=$commands/ramusage.sh
@@ -20,6 +29,7 @@ command=$commands/ipaddress.sh
 markup=pango
 interval=1
 
+
 [date]
 maincolor=#ffff00
 backcolor=#5a5a00
@@ -28,6 +38,7 @@ separator=false
 command=$commands/date.sh
 markup=pango
 interval=1
+
 
 [clock]
 maincolor=#ff8000
