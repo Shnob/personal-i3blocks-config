@@ -1,6 +1,6 @@
 # This command should be made more robust
 
-ip=$(ip a | grep enp0s3)
+ip=$(ip a | grep enp5s0)
 
 ip=($ip)
 
