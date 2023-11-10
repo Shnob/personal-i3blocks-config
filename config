@@ -1,9 +1,9 @@
 commands=./Shnob
 
 [volume]
-maincolor=#fc4141f0
-backcolor=#4e2625c0
-icontext=
+maincolor=#ff4444f0
+backcolor=#601e1ec0
+icontext=
 separator=false
 command=$commands/volume.sh
 markup=pango
@@ -14,17 +14,18 @@ interval=2
 [ramusage]
 maincolor=#ff8000f0
 backcolor=#5a3a00c0
-icontext=
+icontext=󰷐
 separator=false
 command=$commands/ramusage.sh
 markup=pango
 interval=1
+#  󰨅  󰍛  󰙅 󱏒 󰞯  󰨝 󰯃 󰹬 󱒏 󱇚 󱇙 󰧭  󰅌 󱗼    󰠶  󱉯 󰷐
 
 
 [diskusage]
 maincolor=#E7E738f0
 backcolor=#5a5a00c0
-icontext=󰋊
+icontext=
 separator=false
 command=$commands/diskusage.sh
 markup=pango
@@ -35,7 +36,7 @@ interval=1
 interface=enp0s3
 maincolor=#40d55af0
 backcolor=#20422ac0
-icontext=󱂇
+icontext=󰌗
 separator=false
 command=$commands/ipaddress.sh
 markup=pango
@@ -45,7 +46,7 @@ interval=1
 [date]
 maincolor=#20b1e3f0
 backcolor=#0d475bc0
-icontext=
+icontext=󰸘
 separator=false
 command=$commands/date.sh
 markup=pango
