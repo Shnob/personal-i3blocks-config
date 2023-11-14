@@ -1,8 +1,9 @@
 commands=./Shnob
 
+maincolor=#d887f3d0
+backcolor=#502b60c0
+
 [volume]
-maincolor=#ff4444f0
-backcolor=#601e1ec0
 icontext=
 separator=false
 command=$commands/volume.sh
@@ -12,8 +13,6 @@ interval=2
 
 
 [ramusage]
-maincolor=#ff8000f0
-backcolor=#5a3a00c0
 icontext=󰷐
 separator=false
 command=$commands/ramusage.sh
@@ -23,8 +22,6 @@ interval=1
 
 
 [diskusage]
-maincolor=#E7E738f0
-backcolor=#5a5a00c0
 icontext=
 separator=false
 command=$commands/diskusage.sh
@@ -34,8 +31,6 @@ interval=1
 
 [ipaddress]
 interface=enp0s3
-maincolor=#40d55af0
-backcolor=#20422ac0
 icontext=󰌗
 separator=false
 command=$commands/ipaddress.sh
@@ -44,8 +39,6 @@ interval=1
 
 
 [date]
-maincolor=#20b1e3f0
-backcolor=#0d475bc0
 icontext=󰸘
 separator=false
 command=$commands/date.sh
@@ -54,8 +47,6 @@ interval=1
 
 
 [clock]
-maincolor=#d887f3f0
-backcolor=#502b60c0
 icontext=
 separator=false
 command=$commands/clock.sh
