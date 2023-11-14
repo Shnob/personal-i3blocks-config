@@ -1,8 +1,5 @@
 commands=./Shnob
 
-maincolor=#d887f3d0
-backcolor=#502b60c0
-
 [volume]
 icontext=
 separator=false
