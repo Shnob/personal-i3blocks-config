@@ -1,51 +1,62 @@
 commands=./Shnob
+separator=false
+markup=pango
+
+
+[ksp]
+icontext=
+maincolor=#ff4242e0
+gamename=KSP
+gameid=220200
+gameprocess=KSP.x86_64
+command=$commands/game_launcher.sh
+interval=once
+
+
+[factorio]
+icontext=
+maincolor=#eea82de0
+gamename=Factorio
+gameid=427520
+gameprocess=factorio
+command=$commands/game_launcher.sh
+interval=once
+
 
 [volume]
 icontext=
-separator=false
 command=$commands/volume.sh
-markup=pango
 signal=10
 interval=2
 
 
 [ramusage]
 icontext=󰷐
-separator=false
 command=$commands/ramusage.sh
-markup=pango
 interval=1
 #  󰨅  󰍛  󰙅 󱏒 󰞯  󰨝 󰯃 󰹬 󱒏 󱇚 󱇙 󰧭  󰅌 󱗼    󰠶  󱉯 󰷐
 
 
 [diskusage]
 icontext=
-separator=false
 command=$commands/diskusage.sh
-markup=pango
 interval=1
 
 
 [ipaddress]
 interface=enp0s3
 icontext=󰌗
-separator=false
 command=$commands/ipaddress.sh
-markup=pango
 interval=1
 
 
 [date]
 icontext=󰸘
-separator=false
 command=$commands/date.sh
-markup=pango
 interval=1
 
 
 [clock]
 icontext=
-separator=false
 command=$commands/clock.sh
-markup=pango
 interval=1
