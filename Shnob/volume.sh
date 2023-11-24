@@ -1,19 +1,13 @@
-# This command should be made more robust
-
 volume=$(pactl get-sink-volume @DEFAULT_SINK@)
 volume=($volume)
 
 muted=$(pactl get-sink-mute @DEFAULT_SINK@)
 muted=($muted)
 
-text="ha"
+text=$( printf '%3d%c' ${volume[4]} % )
 
-if [ ${muted[1]} == no ]
-then
-    text=${volume[4]}
-else
-    text="MUTE"
+if [ ${muted[1]} == yes ]; then
+    icontext=$iconmute
 fi
 
-#text=${volume[4]}
-maintext="${text}" ./Shnob/block_prettify.sh
+icontext=$icontext maintext="${text}" ./Shnob/block_prettify.sh

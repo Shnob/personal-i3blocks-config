@@ -6,6 +6,7 @@ markup=pango
 [ksp]
 icontext=
 maincolor=#ff4242e0
+backcolor=#843737da
 gamename=KSP
 gameid=220200
 gameprocess=KSP.x86_64
@@ -16,6 +17,7 @@ interval=once
 [factorio]
 icontext=
 maincolor=#eea82de0
+backcolor=#724211b4
 gamename=Factorio
 gameid=427520
 gameprocess=factorio
@@ -25,6 +27,7 @@ interval=once
 
 [volume]
 icontext=
+iconmute=
 command=$commands/volume.sh
 signal=10
 interval=2
