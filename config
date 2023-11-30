@@ -6,7 +6,7 @@ markup=pango
 [ksp]
 icontext=
 maincolor=#ff4242e0
-backcolor=#843737da
+backcolor=#20205eea
 gamename=KSP
 gameid=220200
 gameprocess=KSP.x86_64
@@ -24,6 +24,17 @@ gameprocess=factorio
 command=$commands/game_launcher.sh
 interval=once
 
+
+[terraria]
+icontext=󰹩
+maincolor=#3dc76ce0
+backcolor=#72483ab4
+gamename=Terraria
+gameid=105600
+gameprocess=Main Thread
+command=$commands/game_launcher.sh
+interval=once
+# 󰮕 󱔐 󰹩 󰢷   󰹧
 
 [volume]
 icontext=
@@ -56,6 +67,12 @@ interval=1
 [date]
 icontext=󰸘
 command=$commands/date.sh
+interval=1
+
+
+[worldclock]
+icontext=󰇧
+command=$commands/worldclock.sh
 interval=1
 
 
