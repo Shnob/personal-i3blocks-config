@@ -6,7 +6,7 @@ markup=pango
 [ksp]
 icontext=
 maincolor=#ff4242e0
-backcolor=#20205eea
+backcolor=#20205ed0
 gamename=KSP
 gameid=220200
 gameprocess=KSP.x86_64
