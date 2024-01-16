@@ -1,4 +1,4 @@
-disk=$(df -T -h | grep '\s\/$')
+disk=$(df -T -h | grep '\s/$')
 
 disk=($disk)
 
