@@ -26,7 +26,7 @@ interval=once
 
 
 [terraria]
-icontext=󰹩
+icontext=
 maincolor=#3dc76ce0
 backcolor=#72483ab4
 gamename=Terraria
@@ -35,6 +35,16 @@ gameprocess=Main Thread
 command=$commands/game_launcher.sh
 interval=once
 # 󰮕 󱔐 󰹩 󰢷   󰹧
+
+[stardew valley]
+icontext=
+maincolor=#5387f8e0
+backcolor=#72483ab4
+gamename=Stardew Valley
+gameid=413150
+gameprocess=Stardew Valley
+command=$commands/game_launcher.sh
+interval=once
 
 [volume]
 icontext=
@@ -45,10 +55,16 @@ interval=2
 
 
 [ramusage]
-icontext=󰷐
+icontext=
 command=$commands/ramusage.sh
 interval=1
-#  󰨅  󰍛  󰙅 󱏒 󰞯  󰨝 󰯃 󰹬 󱒏 󱇚 󱇙 󰧭  󰅌 󱗼    󰠶  󱉯 󰷐
+#  󰨅  󰍛  󰙅 󱏒 󰞯  󰨝 󰯃 󰹬 󱒏 󱇚 󱇙 󰧭  󰅌 󱗼    󰠶  󱉯 󰷐 󰷐
+
+
+[cpuusage]
+icontext=
+command=$commands/cpuusage.sh
+interval=1
 
 
 [diskusage]
