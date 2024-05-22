@@ -12,4 +12,4 @@ elif [[ $button -eq 3 ]]; then
     pkill -9 "$gameprocess"
 fi
 
-maintext="${text}" ./Shnob/block_prettify.sh
+maintext="${text}" ./Shnob/game_prettify.sh

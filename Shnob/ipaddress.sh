@@ -1,5 +1,7 @@
 # This command should be made more robust
 
+echo ""
+
 ip=$(ip a | grep enp5s0)
 
 ip=($ip)

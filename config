@@ -73,13 +73,6 @@ command=$commands/diskusage.sh
 interval=1
 
 
-[ipaddress]
-interface=enp0s3
-icontext=󰌗
-command=$commands/ipaddress.sh
-interval=1
-
-
 [date]
 icontext=󰸘
 command=$commands/date.sh
